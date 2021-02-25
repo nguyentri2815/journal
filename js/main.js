@@ -1,9 +1,10 @@
 $(function() {
     // =====================================
     // Layouts/loadingPage
-    $(window).on('load', function(event) {
-        $("#preloader").delay(2000).fadeOut("slow");
-    });
+   
+        // Animate loader off screen
+        $("#preloader").delay(900).fadeOut("slow");
+    
     // =====================================
     // Layouts/midbar
     const headerMid = {
